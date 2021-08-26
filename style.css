@@ -1,9 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
 
 html {
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Anonymous Pro", sans-serif;
   margin: 0;
+  letter-spacing: 1px;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+}
+
+.container {
+  width: 480px;
+  height: 630px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
 }
